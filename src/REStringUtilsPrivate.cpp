@@ -53,8 +53,9 @@ namespace FayeCpp {
 															   const REUInt32 utf8StringLength)
 	{
 		const REUInt32 len = REStringUtilsPrivate::actualUTF8StringLength(utf8String, utf8StringLength);
-		if (len)
-		{
+        // i WANT this empty string!
+//		if (len)
+//		{
 			REBuffer * newBuff = REStringUtilsPrivate::newBufferWithSize(len + 1);
 			if (newBuff)
 			{
@@ -63,7 +64,7 @@ namespace FayeCpp {
 				buff[len] = 0;
 				return REPtr<REBuffer>(newBuff);
 			}
-		}
+//		}
 		return REPtr<REBuffer>();
 	}
 	
