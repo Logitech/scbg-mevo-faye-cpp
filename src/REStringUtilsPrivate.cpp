@@ -53,7 +53,7 @@ namespace FayeCpp {
 															   const REUInt32 utf8StringLength)
 	{
 		const REUInt32 len = REStringUtilsPrivate::actualUTF8StringLength(utf8String, utf8StringLength);
-        // i WANT this empty string!
+        // We WANT empty strings in JSON
 //		if (len)
 //		{
 			REBuffer * newBuff = REStringUtilsPrivate::newBufferWithSize(len + 1);
