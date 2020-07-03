@@ -1582,7 +1582,9 @@ namespace FayeCpp {
 		/**
 		 @brief Wide type. Using "whar_t" as type.
 		 */
-		REStringTypeWide = 1
+		REStringTypeWide = 1,
+
+		REStringTypeJson = 2
 	}
 	/**
 	 @brief Type of the string.
@@ -2618,7 +2620,9 @@ namespace FayeCpp {
 			/**
 			 @brief Type is list object.
 			 */
-			TypeList
+			TypeList,
+
+			TypeJson
 		}
 		/**
 		 @brief Type of the variant object.
