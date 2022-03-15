@@ -1,9 +1,9 @@
 [submodule "jansson"]
 	path = jansson
-	url = git://github.com/akheron/jansson.git
+	url = git@github.com:akheron/jansson.git
 [submodule "libwebsockets"]
 	path = libwebsockets
-	url = git://github.com/warmcat/libwebsockets.git
+	url = git@github.com:warmcat/libwebsockets.git
 [submodule "librws"]
 	path = librws
-	url = git://github.com/OlehKulykov/librws.git
+	url = git@github.com:OlehKulykov/librws.git
